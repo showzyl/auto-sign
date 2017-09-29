@@ -6,5 +6,6 @@ else
   touch trick
   echo 'auto sign' > trick
 fi
+git add *
 git ci -m 'auto sign'
 git push origin
